@@ -1,0 +1,150 @@
+.carlist__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.carlist__form > form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #687087;
+  padding: 3rem 3rem;
+  min-width: 60vw;
+  height: 200px;
+  border-radius: 8px;
+  gap: 30px;
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.carlist__form > h2,
+.carlist__table > h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  padding: 0.8rem;
+}
+
+.carlist__input__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.carlist__input__container > input {
+  margin-top: 0.3rem;
+  padding: 0.5rem;
+  border: 2px solid #2f89ff;
+  border-radius: 8px;
+}
+
+.carlist__btn__container {
+  position: absolute;
+  right: 3rem;
+  bottom: 0;
+  top: 8.5rem;
+}
+
+.carlist__btn__cancel__container,
+.carlist__btn__send__container {
+  padding: 0.5rem 1rem;
+  background-color: #e91e63;
+  margin-left: 1rem;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.carlist__btn__cancel__container:hover,
+.carlist__btn__send__container:hover {
+  opacity: 1;
+}
+
+.carlist__btn__send__container {
+  background-color: #0060e4;
+}
+
+.carlist__input__container > label {
+  color: #fff;
+  font-weight: 600;
+}
+
+.carlist__table {
+  background-color: #687087;
+  min-width: 60vw;
+  height: 100%;
+  border-radius: 8px;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.customTable {
+  width: auto;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-color: #2d354d;
+  border-style: solid;
+  color: #000000;
+  margin-bottom: 5rem;
+}
+
+.customTable td,
+.customTable th {
+  border-width: 2px;
+  border-color: #2d354d;
+  border-style: solid;
+  padding: 5px;
+  text-align: center;
+}
+
+.customTable thead {
+  background-color: #2d354d;
+  color: #fff;
+}
+
+.table__btn__container {
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.table__btn__container > button {
+  margin: 0 0.2rem;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.table__btn__edit,
+.table__btn__cancel,
+.table__btn__finaly {
+  background-color: #005ee4;
+  color: #fff;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.table__btn__cancel {
+  background-color: #e91e63;
+}
+
+.table__btn__finaly {
+  background-color: green;
+}
+
+.table__btn__edit:hover,
+.table__btn__cancel:hover,
+.table__btn__finaly:hover {
+  opacity: 1;
+}

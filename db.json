@@ -1,0 +1,12 @@
+{
+  "cars": [
+    {
+      "modelo": "Ford Fusion",
+      "placa": "TTY 2233",
+      "entrada": "2023-05-17T13:47:23.412Z",
+      "saida": "",
+      "valor": "",
+      "id": 1
+    }
+  ]
+}

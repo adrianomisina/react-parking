@@ -1,0 +1,76 @@
+.navbar__container {
+  width: auto;
+  height: 60px;
+  background-color: #2d354d;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar__logo__container {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.navbar__logo__container > p {
+  font-size: 1.3rem;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.navbar__logo__container > img {
+  width: 1.3rem;
+}
+
+.nav__profile__container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 14px;
+  padding: 2rem;
+}
+
+.nav__profile__container > p {
+  color: #fff;
+}
+
+.nav__profile__container__img {
+  width: 42px;
+  height: 42px;
+}
+
+.nav__profile__container__img > img {
+  max-width: 100%;
+  border-radius: 50%;
+  max-height: 100%;
+}
+
+.navbar__logout__btn {
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  background: #e91e63;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.navbar__logout__btn:hover {
+  opacity: 1;
+}
+
+@media (max-width: 530px) {
+  .nav__profile__container > p {
+    display: none;
+  }
+
+  .navbar__logo__container > p {
+    font-size: 11px;
+    color: #fff;
+    margin-right: 1rem;
+  }
+}
